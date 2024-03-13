@@ -3,6 +3,12 @@
 // ==================================== */
 
 :root {
+  --primary-color: #4b5ebf;
+  --blue: #649bed;
+  --blue2: #71d0dd;
+  --green: #a7dc50;
+  --secondary-color: #ff77b8;
+  --purple: #c561f4;
 }
 
 /* ====================================
@@ -17,6 +23,9 @@
 
 html {
   font-size: 16px;
+  background: #3b2d73;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
 }
 
 body {
@@ -39,16 +48,22 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
-  margin-top: 16px;
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 11px 0;
 }
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #ffeeb08e;
-  border: 1px solid #ffd737;
-}
+
+// .row + .row {
+//   margin-top: 16px;
+// }
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: #ffeeb08e;
+//   border: 1px solid #ffd737;
+// }
 
 /* ====================================
 // base rules

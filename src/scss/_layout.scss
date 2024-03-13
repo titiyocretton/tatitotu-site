@@ -1,0 +1,40 @@
+header {
+  background: white;
+  margin-bottom: 35px;
+}
+
+.l-header {
+  display: flex;
+  gap: 10px;
+  padding: 24px 0;
+}
+
+.l-precomposition {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.l-section {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 90px;
+}
+
+footer {
+  background: white;
+  padding: 53px 0;
+  text-align: center;
+}
+
+.l-container {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.l-space {
+  flex-grow: 1;
+}

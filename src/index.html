@@ -5,23 +5,37 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="header">
-            <div class="header-logo">tatitotu</div>
-            <div class="button"></div>
-            <input type="text" />
-            <div class="button">changer mon défi</div>
-            <div class="button">sauvegarder mon défi</div>
-            <div class="button">imprimer</div>
-            <div class="button">s'exercer</div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="l-header">
+              <div class="header-logo">tatitotu</div>
+              <div class="button">besoin d'aide ?</div>
+              <div class="l-space"></div>
+              <input type="text" />
+              <div class="button">changer mon défi</div>
+              <div class="button">sauvegarder mon défi</div>
+              <div class="l-space"></div>
+              <div class="button">imprimer</div>
+              <div class="button">s'exercer</div>
+            </div>
           </div>
         </div>
-        <div class="col-9">
-          <div class="precomposition">
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-10">
+          <div class="l-precomposition">
             <div class="drop-down-button">5P</div>
             <div class="drop-down-button">6P</div>
             <div class="drop-down-button">7H</div>
@@ -35,65 +49,98 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="section">
+          <div class="l-section">
             <h2>Mes verbes</h2>
             <input type="text" />
             <p>trash</p>
-            <div class="section-container">
+            <div class="l-container">
               <div class="label">bouton x</div>
             </div>
           </div>
         </div>
         <div class="col-4">
-          <div class="section">
-            <h2>Mes temps</h2>
-            <div class="button">tout activer</div>
-            <div class="button">tout désactiver</div>
+          <div class="l-section">
+            <div class="l-container">
+              <h2>Mes temps</h2>
+              <div class="l-space"></div>
+              <div class="button">tout activer</div>
+              <div class="button">tout désactiver</div>
+            </div>
             <div class="mode">
               indicatif
-              <div class="hidden">
-                <label><input type="checkbox" />Présent</label>
-                <label><input type="checkbox" />Passé composé</label>
-                <label><input type="checkbox" />Imparfait</label>
-                <label><input type="checkbox" />Plus-que-parfait</label>
-                <label><input type="checkbox" />Futur</label>
-                <label><input type="checkbox" />Futur antérieur</label>
-                <label><input type="checkbox" />Passé simple</label>
-                <label><input type="checkbox" />Passé antérieur</label>
+              <div class="mode-time">
+                <div class="mode-container">
+                  <label><input type="checkbox" />Présent</label>
+                  <label><input type="checkbox" />Passé composé</label>
+                </div>
+                <div class="mode-container">
+                  <label><input type="checkbox" />Imparfait</label>
+                  <label><input type="checkbox" />Plus-que-parfait</label>
+                </div>
+                <div class="mode-container">
+                  <label><input type="checkbox" />Futur</label>
+                  <label><input type="checkbox" />Futur antérieur</label>
+                </div>
+                <div class="mode-container">
+                  <label><input type="checkbox" />Passé simple</label>
+                  <label><input type="checkbox" />Passé antérieur</label>
+                </div>
               </div>
             </div>
             <div class="mode">
               impératif
-              <label><input type="checkbox" />Présent</label>
-              <label><input type="checkbox" />Passé composé</label>
+              <div class="mode-time">
+                <div class="mode-container">
+                  <label><input type="checkbox" />Présent</label>
+                  <label><input type="checkbox" />Passé composé</label>
+                </div>
+              </div>
             </div>
             <div class="mode">
               subjonctif
-              <label><input type="checkbox" />Présent</label>
-              <label><input type="checkbox" />Passé</label>
-              <label><input type="checkbox" />Imparfait</label>
-              <label><input type="checkbox" />Plus-que-parfait</label>
+              <div class="mode-time">
+                <div class="mode-container">
+                  <label><input type="checkbox" />Présent</label>
+                  <label><input type="checkbox" />Passé</label>
+                </div>
+                <div class="mode-container">
+                  <label><input type="checkbox" />Imparfait</label>
+                  <label><input type="checkbox" />Plus-que-parfait</label>
+                </div>
+              </div>
             </div>
             <div class="mode">
               conditionnel
-              <label><input type="checkbox" />Présent</label>
-              <label><input type="checkbox" />Passé 1</label>
-              <label><input type="checkbox" />Passé 2</label>
+              <div class="mode-time">
+                <label><input type="checkbox" />Présent</label>
+                <div class="mode-container">
+                  <label><input type="checkbox" />Passé 1</label>
+                  <label><input type="checkbox" />Passé 2</label>
+                </div>
+              </div>
             </div>
             <div class="mode">
               participe
-              <label><input type="checkbox" />Présent</label>
-              <label><input type="checkbox" />Passé</label>
+              <div class="mode-time">
+                <div class="mode-container">
+                  <label><input type="checkbox" />Présent</label>
+                  <label><input type="checkbox" />Passé</label>
+                </div>
+              </div>
             </div>
             <div class="mode">
               gerondif
-              <label><input type="checkbox" />Présent</label>
-              <label><input type="checkbox" />Passé</label>
+              <div class="mode-time">
+                <div class="mode-container">
+                  <label><input type="checkbox" />Présent</label>
+                  <label><input type="checkbox" />Passé</label>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-4">
-          <div class="section">
+          <div class="l-section">
             <h2>Options</h2>
             <p>réponses</p>
             <div class="button">indicatif Présent</div>
@@ -107,13 +154,13 @@
               <div class="row">
                 <div class="col-7"></div>
                 <div class="col-5">
-                  <div class="button"></div>
                   <div class="button">prénom</div>
                   <div class="button">nom</div>
                   <div class="button">date</div>
                   <div class="button">note</div>
                   <div class="button">verbes évalué</div>
                   <div class="button">temps évalué</div>
+                  <div class="button">Pronom inclusifs</div>
                   <div class="button">nombres aléatoires</div>
                 </div>
               </div>
@@ -122,6 +169,7 @@
         </div>
       </div>
     </div>
+    <footer>Contact: christophe.roulet@edu-vd.ch</footer>
     <div class="container">
       <div class="row">
         <div class="col-8 offset-2">

@@ -1,0 +1,36 @@
+.mode {
+  background: var(--primary-color);
+  padding: 20px 25px 25px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.mode-time {
+  padding-top: 20px;
+}
+
+.mode-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mode:nth-child(3) {
+  background: var(--blue);
+}
+
+.mode:nth-child(4) {
+  background: var(--blue2);
+}
+
+.mode:nth-child(5) {
+  background: var(--green);
+}
+
+.mode:nth-child(6) {
+  background: var(--secondary-color);
+}
+
+.mode:last-child {
+  margin-bottom: 0;
+  background: var(--purple);
+}
