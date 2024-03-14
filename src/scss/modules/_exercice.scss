@@ -1,0 +1,24 @@
+.exercice {
+  width: 662px;
+  position: relative;
+  top: 135px;
+}
+
+.exercice-inner {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.exercice-container {
+  display: flex;
+  justify-content: center;
+}
+
+.exercice-container:first-child {
+  padding-bottom: 25px;
+}
+
+.exercice-container:nth-child(3) {
+  padding-bottom: 20px;
+}

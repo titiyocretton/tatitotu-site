@@ -1,8 +1,11 @@
 .menu-dropdown {
   background: white;
-  position: absolute;
   top: 180px;
   color: var(--primary-color);
+}
+
+.menu-dropdown-container {
+  display: flex;
   display: none;
 }
 
