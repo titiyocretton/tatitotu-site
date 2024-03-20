@@ -1,0 +1,31 @@
+.dropdown-hidden {
+  background: rgb(255, 255, 255);
+  position: absolute;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.dropdown-hidden p {
+  padding-bottom: 10px;
+}
+
+.dropdown-hidden p:last-child {
+  padding-bottom: 0;
+}
+
+.dropdown-hidden-first {
+  padding: 0 0 20px;
+}
+
+.dropdown-hidden span {
+  background: var(--primary-color);
+  border-radius: 15px;
+  padding: 2px 4px;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.dropdown-hidden {
+  display: none;
+}
