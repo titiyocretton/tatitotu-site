@@ -1,0 +1,37 @@
+.checkbox-time + p {
+  background: rgb(255, 255, 255);
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.checkbox-indicatif:checked + p {
+  background: var(--active-primary);
+}
+
+.checkbox-imperatif:checked + p {
+  background: var(--active-blue);
+}
+
+.checkbox-subjonctif:checked + p {
+  background: var(--active-blue2);
+}
+
+.checkbox-conditionnel:checked + p {
+  background: var(--active-green);
+}
+
+.checkbox-participe:checked + p {
+  background: var(--active-secondary);
+}
+
+.checkbox-gerondif:checked + p {
+  background: var(--active-purple);
+}
+
+.checkbox-time:checked + p {
+  color: white;
+}
+
+.checkbox-time {
+  display: none;
+}

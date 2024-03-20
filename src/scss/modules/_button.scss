@@ -8,3 +8,52 @@
 .button-secondary-color {
   background: var(--secondary-color);
 }
+
+.button-text {
+  width: 200px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid var(--primary, #4b5ebf);
+  background: #fff;
+}
+
+.button-variant1-container {
+  display: flex;
+}
+
+.button-variant1 {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.button-radio {
+  border: 1px solid var(--primary, #4b5ebf);
+  padding: 12px 15px;
+  background: white;
+}
+
+.button-box {
+  margin: 12px 0;
+}
+
+.button-left {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.button-right {
+  border-radius: 0px 15px 15px 0px;
+}
+
+.active {
+  background: var(--primary, #4b5ebf);
+  color: white;
+}
+
+.button-radio input {
+  display: none;
+}
+
+.button-text-alone {
+  height: 46px;
+  flex-grow: 1;
+  border-radius: 5px;
+  border: 1px solid var(--primary, #4b5ebf);
+}

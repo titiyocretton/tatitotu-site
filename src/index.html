@@ -23,8 +23,14 @@
               </div>
               <div class="button">Besoin d'aide ?</div>
               <div class="l-space"></div>
-              <input type="text" />
-              <div class="button">Charger mon défi</div>
+              <div class="button-variant1-container">
+                <input
+                  type="text"
+                  class="button-text"
+                  placeholder="code à 8 caractères"
+                />
+                <div class="button button-variant1">Charger mon défi</div>
+              </div>
               <div class="button">Sauvegarder mon défi</div>
               <div class="l-space"></div>
               <div class="button">Imprimer</div>
@@ -183,20 +189,26 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-3">
           <div class="l-section">
             <h2>Mes verbes</h2>
-            <input type="text" />
-            <p>trash</p>
             <div class="l-container">
-              <div class="label">
+              <input
+                type="text"
+                placeholder="ajouer un verbe"
+                class="button-text-alone"
+              />
+              <p class="verb-trash">trash</p>
+            </div>
+            <div class="l-container">
+              <div class="verb-label">
                 bouton
                 <div class="label-cross">x</div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-5">
           <div class="l-section">
             <div class="section-time">
               <h2>Mes temps</h2>
@@ -208,20 +220,68 @@
               Indicatif
               <div class="mode-time">
                 <div class="mode-container">
-                  <label><input type="checkbox" />Présent</label>
-                  <label><input type="checkbox" />Passé composé</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Présent</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Passé composé</p>
+                  </label>
                 </div>
                 <div class="mode-container">
-                  <label><input type="checkbox" />Imparfait</label>
-                  <label><input type="checkbox" />Plus-que-parfait</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Imparfait</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Plus-que-parfait</p>
+                  </label>
                 </div>
                 <div class="mode-container">
-                  <label><input type="checkbox" />Futur</label>
-                  <label><input type="checkbox" />Futur antérieur</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Futur</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Futur antérieur</p>
+                  </label>
                 </div>
                 <div class="mode-container">
-                  <label><input type="checkbox" />Passé simple</label>
-                  <label><input type="checkbox" />Passé antérieur</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Passé simple</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-indicatif"
+                    />
+                    <p>Passé antérieur</p>
+                  </label>
                 </div>
               </div>
             </div>
@@ -229,8 +289,20 @@
               Impératif
               <div class="mode-time">
                 <div class="mode-container">
-                  <label><input type="checkbox" />Présent</label>
-                  <label><input type="checkbox" />Passé composé</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-imperatif"
+                    />
+                    <p>Présent</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-imperatif"
+                    />
+                    <p>Passé composé</p>
+                  </label>
                 </div>
               </div>
             </div>
@@ -238,22 +310,64 @@
               Subjonctif
               <div class="mode-time">
                 <div class="mode-container">
-                  <label><input type="checkbox" />Présent</label>
-                  <label><input type="checkbox" />Passé</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-subjonctif"
+                    />
+                    <p>Présent</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-subjonctif"
+                    />
+                    <p>Passé</p>
+                  </label>
                 </div>
                 <div class="mode-container">
-                  <label><input type="checkbox" />Imparfait</label>
-                  <label><input type="checkbox" />Plus-que-parfait</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-subjonctif"
+                    />
+                    <p>Imparfait</p>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      class="checkbox-time checkbox-subjonctif"
+                    />
+                    <p>Plus-que-parfait</p>
+                  </label>
                 </div>
               </div>
             </div>
             <div class="mode">
               Conditionnel
               <div class="mode-time">
-                <label><input type="checkbox" />Présent</label>
+                <label
+                  ><input
+                    type="checkbox"
+                    class="checkbox-time checkbox-conditionnel"
+                  />
+                  <p>Présent</p>
+                </label>
                 <div class="mode-container">
-                  <label><input type="checkbox" />Passé 1</label>
-                  <label><input type="checkbox" />Passé 2</label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      class="checkbox-time checkbox-conditionnel"
+                    />
+                    <p>Passé 1</p>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      class="checkbox-time checkbox-conditionnel"
+                    />
+                    <p>Passé 2</p>
+                  </label>
                 </div>
               </div>
             </div>
@@ -261,8 +375,20 @@
               Participe
               <div class="mode-time">
                 <div class="mode-container">
-                  <label><input type="checkbox" />Présent</label>
-                  <label><input type="checkbox" />Passé</label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-participe"
+                    />
+                    <p>Présent</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-participe"
+                    />
+                    <p>Passé</p>
+                  </label>
                 </div>
               </div>
             </div>
@@ -270,8 +396,20 @@
               Gerondif
               <div class="mode-time">
                 <div class="mode-container">
-                  <label><input type="checkbox" />Présent</label>
-                  <label><input type="checkbox" />Passé</label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      class="checkbox-time checkbox-gerondif"
+                    />
+                    <p>Présent</p>
+                  </label>
+                  <label
+                    ><input
+                      type="checkbox"
+                      class="checkbox-time checkbox-gerondif"
+                    />
+                    <p>Passé</p>
+                  </label>
                 </div>
               </div>
             </div>
@@ -280,24 +418,45 @@
         <div class="col-4">
           <div class="l-section">
             <h2>Options</h2>
-            <p>Réponses</p>
-            <label
-              ><input type="radio" name="question" />Indicatif Présent
-            </label>
-            <label><input type="radio" name="question" />Je suis </label>
-            <p>Nombres de questions</p>
-            <select name="number-question" id="">
-              <option value="">5</option>
-              <option value="">10</option>
-              <option value="">20</option>
-              <option value="">30</option>
-              <option value="">40</option>
-              <option value="">50</option>
-            </select>
-            <p>Options d'impressions</p>
+            <div class="options-container options-line">
+              <p>Réponses</p>
+              <div class="button-box">
+                <label class="button-radio active button-left"
+                  ><input type="radio" name="question" />Indicatif Présent
+                </label>
+                <label class="button-radio inactive button-right"
+                  ><input type="radio" name="question" />Je suis
+                </label>
+              </div>
+            </div>
+            <div class="options-container options-line">
+              <p>Nombres de questions</p>
+              <select
+                name="number-question"
+                id=""
+                class="dropdown-input dropdown-button-visible"
+              >
+                <option value="">5</option>
+                <option value="">10</option>
+                <option value="">20</option>
+                <option value="">30</option>
+                <option value="">40</option>
+                <option value="">50</option>
+              </select>
+            </div>
+            <div class="options-line">
+              <p>Options d'impressions</p>
+              <img src="img/arrow-dropdown.svg" alt="" />
+            </div>
             <div class="hidden-option">
-              <input type="text" />
-              <p>Aperçut</p>
+              <div class="options-line">
+                <input
+                  type="text"
+                  class="button-text-alone"
+                  placeholder="défi de conjugaison"
+                />
+              </div>
+              <p>Aperçu</p>
               <div class="row">
                 <div class="col-7"></div>
                 <div class="col-5">
@@ -334,8 +493,12 @@
                 <p><strong>il sera</strong></p>
               </div>
               <div class="exercice-container">
-                <input type="text" />
-                <div class="button">vérifier</div>
+                <input
+                  type="text"
+                  class="button-text"
+                  placeholder="ma réponse"
+                />
+                <div class="button button-variant1">vérifier</div>
               </div>
               <div class="row">
                 <div class="col-5">

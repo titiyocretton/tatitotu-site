@@ -1,8 +1,13 @@
-.label {
+.verb-label {
   background: var(--primary-color);
   padding: 12px 15px;
   border-radius: 15px;
   color: white;
   display: flex;
   gap: 18px;
+  margin-top: 14px;
+}
+
+.verb-trash {
+  color: var(--secondary-color);
 }
