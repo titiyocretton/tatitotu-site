@@ -2,7 +2,14 @@
   background: rgb(255, 255, 255);
   padding: 12px 15px;
   border-radius: 15px;
+  color: black;
 }
+
+// .checkbox + p {
+//   padding: 12px 15px;
+//   border-radius: 15px;
+//   color: black;
+// }
 
 .checkbox-indicatif:checked + p {
   background: var(--active-primary);

@@ -12,6 +12,12 @@
 .mode-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
+}
+
+.mode-container div {
+  display: flex;
+  align-items: baseline;
 }
 
 .mode:nth-child(3) {
@@ -33,4 +39,12 @@
 .mode:last-child {
   margin-bottom: 0;
   background: var(--purple);
+}
+
+.mode-too-dark {
+  color: white;
+}
+
+.mode-container:first-child {
+  padding-top: 0;
 }
