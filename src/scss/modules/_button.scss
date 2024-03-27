@@ -14,6 +14,7 @@
   border-radius: 5px 0px 0px 5px;
   border: 1px solid var(--primary, #4b5ebf);
   background: #fff;
+  padding: 12px;
 }
 
 .button-variant1-container {
@@ -52,7 +53,7 @@
 }
 
 .button-text-alone {
-  height: 46px;
+  padding: 12px;
   flex-grow: 1;
   border-radius: 5px;
   border: 1px solid var(--primary, #4b5ebf);

@@ -22,3 +22,41 @@
 .exercice-container:nth-child(3) {
   padding-bottom: 20px;
 }
+
+.exercice-container:first-child {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercice-question {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.exercice-question p:first-child {
+  padding-bottom: 10px;
+}
+
+.exercice-mode-container {
+  justify-content: flex-end;
+}
+
+.exercice-mode-container,
+.exercice-time-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.exercice-mode {
+  text-align: right;
+}
+
+.exercice-mode p {
+  padding-bottom: 5px;
+}
+
+.exercice-mode p,
+.exercice-time p {
+  padding-bottom: 5px;
+}

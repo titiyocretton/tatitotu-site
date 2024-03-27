@@ -1,0 +1,26 @@
+.progress {
+  width: 550px;
+  height: 36px;
+  border-radius: 3px;
+  border: 1px solid var(--primary-color);
+  display: flex;
+}
+
+.progress-finished {
+  width: 5%;
+  height: 36px;
+  background: var(--primary-color);
+  position: relative;
+  top: -1px;
+  left: -1px;
+  border-radius: 3px 0 0 3px;
+}
+
+.progress-start {
+  background: var(--blue);
+  width: 5%;
+  height: 36px;
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
