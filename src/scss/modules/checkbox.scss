@@ -1,10 +1,3 @@
-.checkbox-time + p {
-  background: rgb(255, 255, 255);
-  padding: 12px 15px;
-  border-radius: 15px;
-  color: black;
-}
-
 // .checkbox + p {
 //   padding: 12px 15px;
 //   border-radius: 15px;
@@ -15,30 +8,74 @@
   background: var(--active-primary);
 }
 
+.checkbox-indicatif + p {
+  color: var(--active-primary);
+}
+
 .checkbox-imperatif:checked + p {
   background: var(--active-blue);
+}
+
+.checkbox-imperatif + p {
+  color: var(--active-blue);
 }
 
 .checkbox-subjonctif:checked + p {
   background: var(--active-blue2);
 }
 
+.checkbox-subjonctif + p {
+  color: var(--active-blue2);
+}
+
 .checkbox-conditionnel:checked + p {
   background: var(--active-green);
+}
+
+.checkbox-conditionnel + p {
+  color: var(--active-green);
 }
 
 .checkbox-participe:checked + p {
   background: var(--active-secondary);
 }
 
+.checkbox-participe + p {
+  color: var(--active-secondary);
+}
+
 .checkbox-gerondif:checked + p {
   background: var(--active-purple);
 }
 
-.checkbox-time:checked + p {
+.checkbox-gerondif + p {
+  color: var(--active-purple);
+}
+
+.checkbox:checked + p {
   color: white;
 }
 
-.checkbox-time {
+.checkbox {
   display: none;
+}
+
+.checkbox + p {
+  background: rgb(255, 255, 255);
+  padding: 12px 15px;
+  border-radius: 15px;
+}
+
+.checkbox-option:checked + p {
+  background: var(--primary-color);
+}
+
+.checkbox + p {
+  text-align: center;
+}
+
+.checkbox-option + p {
+  margin-bottom: 8px;
+  border: 1px var(--primary-color) solid;
+  color: black;
 }
