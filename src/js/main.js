@@ -1,7 +1,9 @@
 var left = document.querySelector(".button-left");
 var right = document.querySelector(".button-right");
 var change = document.querySelector(".button-radio");
-var pain = document.querySelector("p");
+
+var optionImpression = document.querySelector(".cta-option-dropdown");
+var hiddenOptionImpression = document.querySelector(".hidden-option");
 
 var clickRight = function () {
   left.classList.remove("active");
@@ -13,5 +15,11 @@ var clickLeft = function () {
   right.classList.remove("active");
 };
 
+var impression = function () {
+  hiddenOptionImpression.classList.toggle("option-desactive");
+};
+
 right.addEventListener("click", clickRight);
 left.addEventListener("click", clickLeft);
+
+optionImpression.addEventListener("click", impression);

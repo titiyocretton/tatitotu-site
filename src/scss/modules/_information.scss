@@ -1,0 +1,19 @@
+.information div div {
+  position: absolute;
+  margin: 0 0 18px -60px;
+  background: #3b2d73;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+.information div {
+  display: flex;
+  flex-direction: column-reverse;
+  visibility: hidden;
+}
+
+.information:hover div {
+  visibility: visible;
+}
