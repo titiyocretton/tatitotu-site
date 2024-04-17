@@ -7,6 +7,7 @@
 
 .button-secondary-color {
   background: var(--secondary-color);
+  color: black;
 }
 
 .button-text {
@@ -31,10 +32,6 @@
   background: white;
 }
 
-.button-box {
-  margin: 12px 0;
-}
-
 .button-left {
   border-radius: 15px 0px 0px 15px;
 }
@@ -57,4 +54,8 @@
   flex-grow: 1;
   border-radius: 5px;
   border: 1px solid var(--primary, #4b5ebf);
+}
+
+.button-box {
+  margin: 12px 0;
 }
