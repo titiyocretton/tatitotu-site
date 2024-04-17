@@ -11,7 +11,7 @@
   border: 1px solid var(--primary, #4b5ebf);
 }
 
-.dropdown-button:hover div {
+.dropdown-button:hover .dropdown-hidden {
   display: block;
 }
 

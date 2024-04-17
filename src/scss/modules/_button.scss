@@ -95,3 +95,9 @@
   background: var(--active-secondary);
   color: white;
 }
+
+.button-text:hover,
+.button-text-alone:hover {
+  border: 2px solid var(--active-primary);
+  padding: 11px;
+}

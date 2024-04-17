@@ -4,6 +4,11 @@
 //   color: black;
 // }
 
+.checkbox-option:hover + p {
+  background: var(--active-primary);
+  color: white;
+}
+
 .checkbox-indicatif:checked + p {
   background: var(--active-primary);
 }
