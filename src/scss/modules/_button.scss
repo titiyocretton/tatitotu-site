@@ -13,7 +13,7 @@
 .button-text {
   width: 200px;
   border-radius: 5px 0px 0px 5px;
-  border: 1px solid var(--primary, #4b5ebf);
+  border: 1px solid var(--primary-color);
   background: #fff;
   padding: 12px;
 }
@@ -27,7 +27,7 @@
 }
 
 .button-radio {
-  border: 1px solid var(--primary, #4b5ebf);
+  border: 1px solid var(--primary-color);
   padding: 12px 15px;
   background: white;
 }
@@ -41,7 +41,7 @@
 }
 
 .active {
-  background: var(--primary, #4b5ebf);
+  background: var(--primary-color);
   color: white;
 }
 
@@ -53,9 +53,34 @@
   padding: 12px;
   flex-grow: 1;
   border-radius: 5px;
-  border: 1px solid var(--primary, #4b5ebf);
+  border: 1px solid var(--primary-color);
 }
 
 .button-box {
   margin: 12px 0;
+}
+
+.button-imperatif {
+  background: var(--blue);
+  color: black;
+}
+
+.button-subjonctif {
+  background: var(--blue2);
+  color: black;
+}
+
+.button-conditionnel {
+  background: var(--green);
+  color: black;
+}
+
+.button-participe {
+  background: var(--secondary-color);
+  color: black;
+}
+
+.button-gerondif {
+  background: var(--purple);
+  color: black;
 }
