@@ -9,6 +9,9 @@ var startExerce = document.querySelector(".button-exerce");
 var exercice = document.querySelector(".lightbox");
 var crossExercice = document.querySelector(".exercice-cross");
 
+var crossVerbLabel = document.querySelector(".verb-close");
+var verbLabel = document.querySelector(".verb-label");
+
 var clickRight = function () {
   left.classList.remove("active");
   right.classList.add("active");
@@ -39,3 +42,9 @@ var exerceHidden = function () {
 };
 
 crossExercice.addEventListener("click", exerceHidden);
+
+var closeVerbLabel = function () {
+  verbLabel.classList.add("verb-hidden");
+};
+
+crossVerbLabel.addEventListener("click", closeVerbLabel);

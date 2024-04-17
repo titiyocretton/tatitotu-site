@@ -10,3 +10,7 @@
   font-size: 18px;
   border: 1px solid var(--primary, #4b5ebf);
 }
+
+.dropdown-button:hover div {
+  display: block;
+}
