@@ -54,6 +54,7 @@
 
 .checkbox:checked + p {
   color: white;
+  padding: 12px 25px;
 }
 
 .checkbox {
@@ -64,6 +65,7 @@
   background: rgb(255, 255, 255);
   padding: 12px 15px;
   border-radius: 15px;
+  transition: 0.2s;
 }
 
 .checkbox-option:checked + p {

@@ -84,3 +84,14 @@
   background: var(--purple);
   color: black;
 }
+
+// hover button
+
+.button:hover {
+  background: var(--active-primary);
+}
+
+.button-secondary-color:hover {
+  background: var(--active-secondary);
+  color: white;
+}

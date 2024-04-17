@@ -14,3 +14,12 @@
 .dropdown-button:hover div {
   display: block;
 }
+
+.dropdown-arrow-active {
+  transform: scale(-1);
+}
+
+.dropdown-arrow-option {
+  transition: 0.2s;
+  padding: 0 5px;
+}

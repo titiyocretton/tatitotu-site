@@ -4,6 +4,7 @@ var change = document.querySelector(".button-radio");
 
 var optionImpression = document.querySelector(".cta-option-dropdown");
 var hiddenOptionImpression = document.querySelector(".hidden-option");
+var arrowOption = document.querySelector(".dropdown-arrow-option");
 
 var startExerce = document.querySelector(".button-exerce");
 var exercice = document.querySelector(".lightbox");
@@ -24,6 +25,7 @@ var clickLeft = function () {
 
 var impression = function () {
   hiddenOptionImpression.classList.toggle("option-desactive");
+  arrowOption.classList.toggle("dropdown-arrow-active");
 };
 
 right.addEventListener("click", clickRight);
