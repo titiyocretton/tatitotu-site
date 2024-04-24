@@ -3,6 +3,7 @@
   color: white;
   padding: 12px 15px;
   border-radius: 15px;
+  transition: 0.2s;
 }
 
 .button-secondary-color {
@@ -32,6 +33,13 @@
   background: white;
 }
 
+.button-radio:hover {
+  background: var(--active-primary);
+  border-color: var(--active-primary);
+  color: white;
+  transition: 0.2s;
+}
+
 .button-left {
   border-radius: 15px 0px 0px 15px;
 }
@@ -40,7 +48,7 @@
   border-radius: 0px 15px 15px 0px;
 }
 
-.active {
+.button-active {
   background: var(--primary-color);
   color: white;
 }

@@ -3,16 +3,22 @@
   padding: 12px 15px;
   color: var(--primary-color);
   border-radius: 15px;
+  transition: 0.2s;
 }
 
 .dropdown-input {
   padding: 12px 5px 12px 15px;
   font-size: 18px;
   border: 1px solid var(--primary, #4b5ebf);
+  transition: 0.15s;
 }
 
 .dropdown-button:hover .dropdown-hidden {
   display: block;
+}
+
+.dropdown-button:hover .dropdown-button-visible {
+  padding: 12px 20px;
 }
 
 .dropdown-arrow-active {
@@ -22,4 +28,10 @@
 .dropdown-arrow-option {
   transition: 0.2s;
   padding: 0 5px;
+}
+
+.dropdown-input:hover {
+  background: var(--active-primary);
+  color: white;
+  border-color: var(--active-primary);
 }

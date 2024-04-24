@@ -14,13 +14,13 @@ var crossVerbLabel = document.querySelector(".verb-close");
 var verbLabel = document.querySelector(".verb-label");
 
 var clickRight = function () {
-  left.classList.remove("active");
-  right.classList.add("active");
+  left.classList.remove("button-active");
+  right.classList.add("button-active");
 };
 
 var clickLeft = function () {
-  left.classList.add("active");
-  right.classList.remove("active");
+  left.classList.add("button-active");
+  right.classList.remove("button-active");
 };
 
 var impression = function () {

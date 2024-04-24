@@ -7,6 +7,7 @@
 .checkbox-option:hover + p {
   background: var(--active-primary);
   color: white;
+  border-color: var(--active-primary);
 }
 
 .checkbox-indicatif:checked + p {
@@ -85,4 +86,8 @@
   margin-bottom: 8px;
   border: 1px var(--primary-color) solid;
   color: black;
+}
+
+.checkbox:checked:hover + p {
+  padding: 12px 22px;
 }
