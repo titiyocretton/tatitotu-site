@@ -109,3 +109,26 @@
   border: 2px solid var(--active-primary);
   padding: 11px;
 }
+
+.button-imperatif:hover {
+  background: var(--active-blue);
+  color: white;
+}
+
+.button-subjonctif:hover {
+  background: var(--active-blue2);
+  color: white;
+}
+.button-conditionnel:hover {
+  background: var(--active-green);
+  color: white;
+}
+.button-participe:hover {
+  background: var(--active-secondary);
+  color: white;
+}
+
+.button-gerondif:hover {
+  background: var(--active-purple);
+  color: white;
+}

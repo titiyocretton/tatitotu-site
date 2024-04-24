@@ -5,6 +5,15 @@
 
 .icone-search {
   padding-left: 10px;
+  transition: 0.1s;
+}
+
+.icone-search:hover {
+  color: white;
+}
+
+.mode-too-dark .icone-search:hover {
+  color: black;
 }
 
 .icone-trash:hover {

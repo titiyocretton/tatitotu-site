@@ -10,57 +10,57 @@
   border-color: var(--active-primary);
 }
 
-.checkbox-indicatif:checked + p {
+.checkbox-indicatif + p {
   background: var(--active-primary);
 }
 
-.checkbox-indicatif + p {
+.checkbox-indicatif:checked + p {
   color: var(--active-primary);
 }
 
-.checkbox-imperatif:checked + p {
+.checkbox-imperatif + p {
   background: var(--active-blue);
 }
 
-.checkbox-imperatif + p {
+.checkbox-imperatif:checked + p {
   color: var(--active-blue);
 }
 
-.checkbox-subjonctif:checked + p {
+.checkbox-subjonctif + p {
   background: var(--active-blue2);
 }
 
-.checkbox-subjonctif + p {
+.checkbox-subjonctif:checked + p {
   color: var(--active-blue2);
 }
 
-.checkbox-conditionnel:checked + p {
+.checkbox-conditionnel + p {
   background: var(--active-green);
 }
 
-.checkbox-conditionnel + p {
+.checkbox-conditionnel:checked + p {
   color: var(--active-green);
 }
 
-.checkbox-participe:checked + p {
+.checkbox-participe + p {
   background: var(--active-secondary);
 }
 
-.checkbox-participe + p {
+.checkbox-participe:checked + p {
   color: var(--active-secondary);
 }
 
-.checkbox-gerondif:checked + p {
+.checkbox-gerondif + p {
   background: var(--active-purple);
 }
 
-.checkbox-gerondif + p {
+.checkbox-gerondif:checked + p {
   color: var(--active-purple);
 }
 
 .checkbox:checked + p {
-  color: white;
   padding: 12px 25px;
+  background: white;
 }
 
 .checkbox {
@@ -68,14 +68,16 @@
 }
 
 .checkbox + p {
-  background: rgb(255, 255, 255);
   padding: 12px 15px;
   border-radius: 15px;
   transition: 0.2s;
+  color: white;
 }
 
 .checkbox-option:checked + p {
   background: var(--primary-color);
+  color: white;
+  letter-spacing: 2px;
 }
 
 .checkbox + p {
