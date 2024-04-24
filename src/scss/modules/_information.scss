@@ -17,3 +17,11 @@
 .information:hover div {
   visibility: visible;
 }
+
+.information:hover {
+  color: white;
+}
+
+.mode-too-dark .information:hover {
+  color: black;
+}
